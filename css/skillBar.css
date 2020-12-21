@@ -1,0 +1,436 @@
+* {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ body {
+	background: #ededed;
+	font-family: 'Lato', Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+} 
+
+.skillset {
+	margin-top: 15px;
+}
+
+.skill-lockup {
+	max-width: 450px;
+	width: 100%;
+	margin-left: 320px;
+	margin-right: 40px;
+}
+
+.mr {
+	margin-right: 0;
+}
+
+.mb {
+	margin-bottom: 5px;
+}
+
+.skill-info {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.skill-name {
+	float: left;
+	color: #666;
+}
+
+.skill-status {
+	float: right;
+	color: #c4c4c4;
+	font-size: .8em;
+}
+.skill-bar {
+	display: block;
+	max-width: 450px;
+	width: 100%;
+	height: 5px;
+	background: #e3e3e5;
+	clear: both;
+	margin: 20px 0;
+}
+
+.skill-level {
+	display: table;
+	height: 5px;
+}
+.java, .python, .html, .css, .javascript, .jquery, .android, 
+.flutter, .mysql, .sqlite, .prestashop, .wordpress, .linux, .latex, .espanol, .ingles{
+	background: #6c81b5;
+}
+
+.java {
+	width: 70%;
+	-webkit-animation: java 5s linear;
+	animation: java 5s linear;
+}
+
+.python {
+	width: 60%;
+	-webkit-animation: python 5s linear;
+	animation: python 5s linear;
+}
+
+.html {
+	width: 70%;
+	-webkit-animation: html 5s linear;
+	animation: html 5s linear;
+}
+
+.css {
+	width: 60%;
+	-webkit-animation: css 5s linear;
+	animation: css 5s linear;
+}
+
+.javascript {
+	width: 70%;
+	-webkit-animation: javascript 5s linear;
+	animation: javascript 5s linear;
+}
+
+.jquery {
+	width: 60%;
+	-webkit-animation: javascript 5s linear;
+	animation: javascript 5s linear;
+}
+
+.android {
+	width: 70%;
+	-webkit-animation: android 5s linear;
+	animation: android 5s linear;
+}
+
+.flutter {
+	width: 60%;
+	-webkit-animation: flutter 5s linear;
+	animation: flutter 5s linear;
+}
+
+.mysql {
+	width: 80%;
+	-webkit-animation: mysql 5s linear;
+	animation: mysql 5s linear;
+}
+
+.sqlite {
+	width: 60%;
+	-webkit-animation: sqlite 5s linear;
+	animation: sqlite 5s linear;
+}
+
+.prestashop {
+	width: 70%;
+	-webkit-animation: prestashop 5s linear;
+	animation: prestashop 5s linear;
+}
+
+.wordpress {
+	width: 50%;
+	-webkit-animation: wordpress 5s linear;
+	animation: wordpress 5s linear;
+}
+
+.linux {
+	width: 70%;
+	-webkit-animation: linux 5s linear;
+	animation: linux 5s linear;
+}
+
+.latex {
+	width: 60%;
+	-webkit-animation: latex 5s linear;
+	animation: latex 5s linear;
+}
+
+.espanol {
+	width: 100%;
+	-webkit-animation: espanol 5s linear;
+	animation: espanol 5s linear;
+}
+
+.ingles {
+	width: 85%;
+	-webkit-animation: ingles 5s linear;
+	animation: ingles 5s linear;
+}
+
+
+
+/*-----------------------
+	  	Animations 
+-------------------------*/ 
+@-webkit-keyframes java {
+	from { width: 0%; }
+	to { width: 40%; }
+}
+
+@keyframes java {
+	from { width: 0%; }
+	to { width: 40%; }
+}
+
+/*-----------------------
+	Planning Animation 
+-------------------------*/
+@-webkit-keyframes python {
+	from { width: 0%; }
+	to { width: 15%; }
+}
+
+@keyframes python {
+	from { width: 0%; }
+	to { width: 15%; }
+}
+
+/*-----------------------
+	Learning Animation 
+-------------------------*/ 
+@-webkit-keyframes html {
+	from { width: 0%; }
+	to { width: 45%; }
+}
+
+@keyframes html {
+	from { width: 0%; }
+	to { width: 45%; }
+}
+
+/*-----------------------
+  Programming Animation 
+-------------------------*/ 
+@-webkit-keyframes css {
+	from { width: 0%; }
+	to { width: 30%; }
+}
+
+@keyframes css {
+	from { width: 0%; }
+	to { width: 30%; }
+}
+
+/*-----------------------
+Visual-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes javascript {
+	from { width: 0%; }
+	to { width: 20%; }
+}
+
+@keyframes javascript {
+	from { width: 0%; }
+	to { width: 20%; }
+}
+
+/*-----------------------
+Visual-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes jquery {
+	from { width: 0%; }
+	to { width: 20%; }
+}
+
+@keyframes jquery {
+	from { width: 0%; }
+	to { width: 20%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes android {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes android {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes flutter {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes flutter {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes mysql{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes mysql {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes sqlite{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes sqlite {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes prestashop{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes prestashop {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes wordpress{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes wordpress {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes linux{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes linux {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes latex{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes latex {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes espanol{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes espanol {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes ingles{
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes ingles {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+/*-----------------------
+	  Media queries
+-------------------------*/ 
+
+
+@media screen and (max-width: 955px) {
+	.skillset {
+		padding: 20px;
+	}
+	.skill-lockup {
+		max-width: 700px;
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.skill-bar {
+		max-width: 700px;
+		width: 100%;
+	}
+}
+
+/*-----------------------
+	  Estilo botones
+-------------------------*/ 
+
+.accordion {
+	background-color: #e5e7f0;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+  }
+  
+  .icon, .accordion:hover {
+	background-color: #6c81b5;
+	color: white;
+  }
+  
+  .panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+  }
+
+  .accordion:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .icon:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
